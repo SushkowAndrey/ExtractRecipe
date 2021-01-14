@@ -31,7 +31,7 @@
     <string>Выберите тип организации</string>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>360</x>
@@ -57,7 +57,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>70</x>
@@ -82,37 +82,37 @@
       </item>
       <item>
        <property name="text">
-        <string>Госучреждение с медицинской лицензией</string>
+        <string>Федеральное учреждение</string>
        </property>
       </item>
       <item>
        <property name="text">
-        <string>Госучреждение с фармацевтической лицензией</string>
+        <string>Региональное учреждение</string>
        </property>
       </item>
       <item>
        <property name="text">
-        <string>ООО с медицинской лицензией</string>
+        <string>Казенное предприятие</string>
        </property>
       </item>
       <item>
        <property name="text">
-        <string>ООО с фармацевтической лицензией</string>
+        <string>Общество с ограниченной ответственностью</string>
        </property>
       </item>
       <item>
        <property name="text">
-        <string>ИП с медицинской лицензией</string>
+        <string>Открытое акционерное общество</string>
        </property>
       </item>
       <item>
        <property name="text">
-        <string>ИП с фармацевтической лицензией</string>
+        <string>Закрытое акционерное общество</string>
        </property>
       </item>
       <item>
        <property name="text">
-        <string>Регистрация следующего типа организации</string>
+        <string>Индивидуальный предприниматель</string>
        </property>
       </item>
      </widget>

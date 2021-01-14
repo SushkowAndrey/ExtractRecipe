@@ -9,6 +9,9 @@
 
 //форма для связывания окон
 #include "account.h"
+//модель данных
+#include "dbconnect.h"
+#include "accountmodel.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -31,6 +34,8 @@ private slots:
     void on_pushButton_enter_clicked();
 
     void on_pushButton_registration_clicked();
+
+    void on_pushButton_password_recovery_clicked();
 
 private:
     Ui::MainWindow *ui;

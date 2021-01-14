@@ -10,21 +10,32 @@ CONFIG += c++11
 
 SOURCES += \
     account.cpp \
+    accountmodel.cpp \
     dataorganization.cpp \
+    dbconnect.cpp \
     log.cpp \
     main.cpp \
     mainwindow.cpp \
     organization.cpp \
+    organizationmodel.cpp \
+    passwordrecovery.cpp \
+    recoveractiveuser.cpp \
+    recoverpassworduser.cpp \
     registration.cpp \
     selectingorganization.cpp
 
 HEADERS += \
     account.h \
-    checkingstring.h \
+    accountmodel.h \
     dataorganization.h \
+    dbconnect.h \
     log.h \
     mainwindow.h \
     organization.h \
+    organizationmodel.h \
+    passwordrecovery.h \
+    recoveractiveuser.h \
+    recoverpassworduser.h \
     registration.h \
     selectingorganization.h
 
@@ -33,6 +44,9 @@ FORMS += \
     dataorganization.ui \
     mainwindow.ui \
     organization.ui \
+    passwordrecovery.ui \
+    recoveractiveuser.ui \
+    recoverpassworduser.ui \
     registration.ui \
     selectingorganization.ui
 

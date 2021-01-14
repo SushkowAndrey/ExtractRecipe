@@ -30,5 +30,4 @@ void SelectingOrganization::on_pushButton_further_clicked()
     QDialog::close();
     organization->exec();
     }
-
 }
